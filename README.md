@@ -5,7 +5,7 @@ I'm applying for my FRC team this is the project!
 
 ## 🔗 Links 
 [Robot model](https://grabcad.com/library/frc-2881-2024-off-season-robot-1) 
-[FRC Stage model](https://www.firstinspires.org/robotics/frc/playing-field) *[Download \[↗]\](https://firstfrc.blob.core.windows.net/frc2024/FieldAssets/CRESCENDO2024Field-STEP.zip](https://firstfrc.blob.core.windows.net/frc2024/FieldAssets/CRESCENDO2024Field-STEP.zip))*
+[FRC Stage model](https://www.firstinspires.org/robotics/frc/playing-field) *[Download \[↗]\](https://firstfrc.blob.core.windows.net/frc2024/FieldAssets/CRESCENDO2024Field-STEP.zip)* 
 
 ## 🛠️ Changelog (only updated during dev)
 

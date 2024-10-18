@@ -4,8 +4,8 @@ I'm applying for my FRC team this is the project!
 1-week deadline from Thrusday Oct 17th
 
 ## 🔗 Links 
-[Robot model](https://grabcad.com/library/frc-2881-2024-off-season-robot-1) 
-[FRC Stage model](https://www.firstinspires.org/robotics/frc/playing-field) [Download \[↗]](https://firstfrc.blob.core.windows.net/frc2024/FieldAssets/CRESCENDO2024Field-STEP.zip)
+[Robot model](https://grabcad.com/library/frc-2881-2024-off-season-robot-1) <br>
+[FRC Stage model](https://www.firstinspires.org/robotics/frc/playing-field) [Download↗](https://firstfrc.blob.core.windows.net/frc2024/FieldAssets/CRESCENDO2024Field-STEP.zip)
 
 ## 🛠️ Changelog (only updated during dev)
 

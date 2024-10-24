@@ -1,0 +1,1506 @@
+[gd_scene load_steps=8 format=3 uid="uid://dcnwcf3pompaj"]
+
+[ext_resource type="PackedScene" uid="uid://b8frqcoj08npb" path="res://models/2024_Offseason2881Robot_8-27-24 v0.fbx" id="1_gpg5l"]
+[ext_resource type="Material" uid="uid://dam4ffvlokanr" path="res://materials/metal/metal.tres" id="1_jb27u"]
+[ext_resource type="Texture2D" uid="uid://dlwrrjrt7pc1f" path="res://materials/metal/Metal049A_1K-JPG_Roughness.jpg" id="2_21xka"]
+[ext_resource type="Material" uid="uid://cu0okc4xwsxry" path="res://materials/black_rubber/rubber.tres" id="3_82lq1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0swju"]
+albedo_texture = ExtResource("2_21xka")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qtkrd"]
+albedo_texture = ExtResource("2_21xka")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cgosl"]
+albedo_texture = ExtResource("2_21xka")
+
+[node name="2024_Offseason2881Robot_8-27-24 v0" instance=ExtResource("1_gpg5l")]
+
+[node name="Body130" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024Offseason_WeldedLongChassisRail_No hole_1/2024Offseason_WeldedLongChassisRail_No hole" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body137" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024Offseason_WeldedLongChassisRail_1/2024Offseason_WeldedLongChassisRail" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body138" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024Offseason_WeldedShortChassisRail_Battery Side_2/2024Offseason_WeldedShortChassisRail_Battery Side2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body139" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024Offseason_WeldedLongChassisRail_No hole_3/2024Offseason_WeldedLongChassisRail_No hole3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body140" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024Offseason_WeldedShortChassisRail_2/2024Offseason_WeldedShortChassisRail2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1265" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/REV-21-3005_STEP_1/REV-21-3005_STEP/REV-21-1651_STEP_1/REV-21-1651_STEP" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1267" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/REV-21-3005_STEP_1/REV-21-3005_STEP/REV-41-1601_STEP_1/REV-41-1601_STEP" index="11"]
+material_override = SubResource("StandardMaterial3D_0swju")
+
+[node name="Body1271" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/REV-21-3005_STEP_1/REV-21-3005_STEP/REV-41-1607_STEP_1/REV-41-1607_STEP" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1276" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/REV-21-3005_STEP_1/REV-21-3005_STEP/REV-21-3005-P01_STEP_1/REV-21-3005-P01_STEP" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1277" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/REV-21-3005_STEP_1/REV-21-3005_STEP/REV-21-3005-P02_STEP_1/REV-21-3005-P02_STEP" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1278" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/REV-21-3005_STEP_1/REV-21-3005_STEP/REV-21-3005-P03_STEP_1/REV-21-3005-P03_STEP" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1300" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/REV-21-3005_STEP_1/REV-21-3005_STEP/REV-21-3005-P12_STEP_1/REV-21-3005-P12_STEP" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1801" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP/REV-11-2159_STEP_1/REV-11-2159_STEP/REV-11-2159-P01_STEP_1/REV-11-2159-P01_STEP" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1844" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP/REV-21-1652_STEP_1/REV-21-1652_STEP/REV-21-1652-P02_STEP_1/REV-21-1652-P02_STEP" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1845" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP/REV-21-1652_STEP_1/REV-21-1652_STEP/REV-21-1652-P08_STEP_1/REV-21-1652-P08_STEP" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1858" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_1/REV-21-3005_REVSwerve/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP/REV-21-1652_STEP_1/REV-21-1652_STEP/REV-21-1652-P10_STEP_1/REV-21-1652-P10_STEP" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1370" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/REV-21-3005_STEP_12/REV-21-3005_STEP2/REV-21-1651_STEP_12/REV-21-1651_STEP2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2107" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/REV-21-3005_STEP_12/REV-21-3005_STEP2/REV-41-1601_STEP_12/REV-41-1601_STEP2" index="1"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1373" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/REV-21-3005_STEP_12/REV-21-3005_STEP2/REV-41-1602_STEP_12/REV-41-1602_STEP2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1376" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/REV-21-3005_STEP_12/REV-21-3005_STEP2/REV-41-1607_STEP_12/REV-41-1607_STEP2" index="0"]
+material_override = SubResource("StandardMaterial3D_qtkrd")
+
+[node name="Body1381" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/REV-21-3005_STEP_12/REV-21-3005_STEP2/REV-21-3005-P01_STEP_12/REV-21-3005-P01_STEP2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1382" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/REV-21-3005_STEP_12/REV-21-3005_STEP2/REV-21-3005-P02_STEP_12/REV-21-3005-P02_STEP2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1403" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/REV-21-3005_STEP_12/REV-21-3005_STEP2/REV-21-3005-P12_STEP_12/REV-21-3005-P12_STEP2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1464" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/REV-21-3005_STEP_12/REV-21-3005_STEP2/#10 Socket Head Cap Screws_2_000 Long_STEP_12/#10 Socket Head Cap Screws_2_000 Long_STEP5" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body2130" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/REV-21-3005_STEP_12/REV-21-3005_STEP2/REV-29-1016_STEP_12/REV-29-1016_STEP4" index="1"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body11087" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_22/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_12/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP2/REV-11-2159_STEP_12/REV-11-2159_STEP2/ISDF-05-D-M_STEP_12/ISDF-05-D-M_STEP2/ISDF-05-D-M_b_STEP_12/ISDF-05-D-M_b_STEP2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1863" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_22/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_12/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP2/REV-11-2159_STEP_12/REV-11-2159_STEP2/REV-11-2159-P01_STEP_12/REV-11-2159-P01_STEP2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1877" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_22/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_12/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP2/REV-21-1652_STEP_12/REV-21-1652_STEP2/REV-21-1652-P02_STEP_12/REV-21-1652-P02_STEP2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1878" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_22/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_12/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP2/REV-21-1652_STEP_12/REV-21-1652_STEP2/REV-21-1652-P08_STEP_12/REV-21-1652-P08_STEP2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1886" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_22/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_12/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP2/REV-21-1652_STEP_12/REV-21-1652_STEP2/REV-21-1652-P01_STEP_12/REV-21-1652-P01_STEP2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1891" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_2/REV-21-3005_REVSwerve2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_22/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_12/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP2/REV-21-1652_STEP_12/REV-21-1652_STEP2/REV-21-1652-P10_STEP_12/REV-21-1652-P10_STEP2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1481" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-21-1651_STEP_13/REV-21-1651_STEP3" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2133" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-41-1601_STEP_13/REV-41-1601_STEP3" index="1"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1483" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-41-1602_STEP_13/REV-41-1602_STEP3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1485" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-41-1607_STEP_13/REV-41-1607_STEP3" index="0"]
+material_override = SubResource("StandardMaterial3D_cgosl")
+
+[node name="Body1490" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-21-3005-P01_STEP_13/REV-21-3005-P01_STEP3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1491" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-21-3005-P02_STEP_13/REV-21-3005-P02_STEP3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1492" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-21-3005-P03_STEP_13/REV-21-3005-P03_STEP3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1507" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-11-1271_STEP_13/REV-11-1271_STEP3" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body360" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-11-1271_STEP_13/REV-11-1271_STEP3" index="2"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2912" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-11-1271_STEP_13/REV-11-1271_STEP3" index="28"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1549" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-21-3005-P12_STEP_13/REV-21-3005-P12_STEP3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1550" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/REV-21-3005_STEP_13/REV-21-3005_STEP3/REV-21-3005-P13_STEP_13/REV-21-3005-P13_STEP3" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1896" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_23/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft3/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_13/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP3/REV-11-2159_STEP_13/REV-11-2159_STEP3/REV-11-2159-P01_STEP_13/REV-11-2159-P01_STEP3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1938" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_23/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft3/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_13/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP3/REV-21-1652_STEP_13/REV-21-1652_STEP3/REV-21-1652-P02_STEP_13/REV-21-1652-P02_STEP3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1939" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_23/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft3/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_13/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP3/REV-21-1652_STEP_13/REV-21-1652_STEP3/REV-21-1652-P08_STEP_13/REV-21-1652-P08_STEP3" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1947" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_23/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft3/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_13/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP3/REV-21-1652_STEP_13/REV-21-1652_STEP3/REV-21-1652-P01_STEP_13/REV-21-1652-P01_STEP3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1952" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_23/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft3/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_13/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP3/REV-21-1652_STEP_13/REV-21-1652_STEP3/REV-21-1652-P10_STEP_13/REV-21-1652-P10_STEP3" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1190" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_3/REV-21-3005_REVSwerve3/2024_Offseason_Drivetrain_IntakeWheelGaurd_V4_13/2024_Offseason_Drivetrain_IntakeWheelGaurd_V43" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="REV-21-3005_REVSwerve_4" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly" index="11"]
+transform = Transform3D(-1, -1.22461e-16, -8.74228e-08, -1.22461e-16, 1, -1.22461e-16, 8.74228e-08, -1.22461e-16, -1, 0.31115, -0.04445, 0.27305)
+
+[node name="Body1769" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-21-3004_STEP_14/REV-21-3004_STEP4/REV-21-3004-P01_STEP_14/REV-21-3004-P01_STEP4" index="0"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body1594" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-21-1651_STEP_14/REV-21-1651_STEP4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1595" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="0"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body2150" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="1"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body367" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="2"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body467" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="3"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body567" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="4"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body667" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="5"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body767" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="6"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body867" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="7"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body967" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="8"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body1067" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="9"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body11137" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="10"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body12127" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="11"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body13117" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1601_STEP_14/REV-41-1601_STEP4" index="12"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body1596" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1602_STEP_14/REV-41-1602_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1598" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-41-1607_STEP_14/REV-41-1607_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1601" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="0"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body2152" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="1"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body369" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="2"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body469" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="3"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body569" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="4"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body669" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="5"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body769" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="6"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body869" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="7"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body969" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="8"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body1069" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="9"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body11139" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="10"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body12129" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="11"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body13119" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="12"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body14107" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="13"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body15100" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="14"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body1645" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="15"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body1734" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="16"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body1828" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="17"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body1927" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="18"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body2021" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="19"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body2153" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="20"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body2221" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="21"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body2321" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="22"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body2421" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="23"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body2521" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/6812ZZ_STEP_14/6812ZZ_STEP4" index="24"]
+surface_material_override/0 = ExtResource("1_jb27u")
+
+[node name="Body1602" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-21-3005-P01_STEP_14/REV-21-3005-P01_STEP4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1603" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-21-3005-P02_STEP_14/REV-21-3005-P02_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1604" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-21-3005-P03_STEP_14/REV-21-3005-P03_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1657" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-11-1271_STEP_14/REV-11-1271_STEP4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2222" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-11-1271_STEP_14/REV-11-1271_STEP4" index="21"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body2913" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-11-1271_STEP_14/REV-11-1271_STEP4" index="28"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1663" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-21-3005-P12_STEP_14/REV-21-3005-P12_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1664" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/REV-21-3005_STEP_14/REV-21-3005_STEP4/REV-21-3005-P13_STEP_14/REV-21-3005-P13_STEP4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body11170" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-11-2159_STEP_14/REV-11-2159_STEP4/ISDF-05-D-M_STEP_14/ISDF-05-D-M_STEP4/ISDF-05-D-M_b_STEP_14/ISDF-05-D-M_b_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body11174" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-11-2159_STEP_14/REV-11-2159_STEP4/TFM-105-02-L-DH-TR_STEP_14/TFM-105-02-L-DH-TR_STEP4/TFM-105-02-L-DH_terminal_STEP_14/TFM-105-02-L-DH_terminal_STEP4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body11175" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-11-2159_STEP_14/REV-11-2159_STEP4/TFM-105-02-L-DH-TR_STEP_14/TFM-105-02-L-DH-TR_STEP4/USB4110-GF-A_PART1_STEP_14/USB4110-GF-A_PART1_STEP4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1957" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-11-2159_STEP_14/REV-11-2159_STEP4/REV-11-2159-P01_STEP_14/REV-11-2159-P01_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1961" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-11-2159_STEP_14/REV-11-2159_STEP4/REV-11-2159-P08_STEP_14/REV-11-2159-P08_STEP4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1962" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-11-2159_STEP_14/REV-11-2159_STEP4/REV-11-2159-P08_STEP (1)_14/REV-11-2159-P08_STEP (1)4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1963" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-11-2159_STEP_14/REV-11-2159_STEP4/REV-11-2159-P02_STEP_14/REV-11-2159-P02_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body3102" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-11-2159_STEP_14/REV-11-2159_STEP4/REV-11-2159-P03_STEP_14/REV-11-2159-P03_STEP4" index="2"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body599" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-11-2159_STEP_14/REV-11-2159_STEP4/REV-11-2159-P03_STEP_14/REV-11-2159-P03_STEP4" index="4"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1971" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-21-1652_STEP_14/REV-21-1652_STEP4/REV-21-1652-P02_STEP_14/REV-21-1652-P02_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1972" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-21-1652_STEP_14/REV-21-1652_STEP4/REV-21-1652-P08_STEP_14/REV-21-1652-P08_STEP4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1985" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_24/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft4/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_14/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP4/REV-21-1652_STEP_14/REV-21-1652_STEP4/REV-21-1652-P10_STEP_14/REV-21-1652-P10_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1192" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/REV-21-3005_REVSwerve_4/REV-21-3005_REVSwerve4/2024_Offseason_Drivetrain_IntakeWheelGaurd_V4_14/2024_Offseason_Drivetrain_IntakeWheelGaurd_V44" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body141" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024_Offseason_Robot_ShooterplateBar_1/2024_Offseason_Robot_ShooterplateBar" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body146" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024_Offseason_Robot_ShooterplateBar_2/2024_Offseason_Robot_ShooterplateBar2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1193" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024_Offseason_Electronics_Battery_Mount_1/2024_Offseason_Electronics_Battery_Mount/2024_Offseason_Electronics_Long_Battery_Mount_1/2024_Offseason_Electronics_Long_Battery_Mount" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1194" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024_Offseason_Electronics_Battery_Mount_1/2024_Offseason_Electronics_Battery_Mount/2024_Offseason_Electronics_Short_Battery_Mount_1/2024_Offseason_Electronics_Short_Battery_Mount" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1195" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024_Offseason_Electronics_Battery_Mount_1/2024_Offseason_Electronics_Battery_Mount/2024_Offseason_Electronics_Short_Battery_Mount_2/2024_Offseason_Electronics_Short_Battery_Mount2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body147" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024Offseason_WeldedShortChassisGusset_1/2024Offseason_WeldedShortChassisGusset" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body148" parent="2024_Offseason2881Robot_8-27-24 v1/WeldedChassisAssembly_1/WeldedChassisAssembly/2024Offseason_WeldedShortChassisGusset_2/2024Offseason_WeldedShortChassisGusset2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Robot_Shaft_1/2024_Offseason_Robot_Shaft" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body149" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Robot_Shooterplate_1/2024_Offseason_Robot_Shooterplate" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body150" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Robot_Shooterplate_2/2024_Offseason_Robot_Shooterplate2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body151" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Robot_ShooterArm_1/2024_Offseason_Robot_ShooterArm" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body156" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Robot_ShooterArm_2/2024_Offseason_Robot_ShooterArm2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1197" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/2024_Offseason_Launcher_LauncherShafts_1/2024_Offseason_Launcher_LauncherShafts" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1198" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/217-3875-500HEX V2_1/217-3875-500HEX V27" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1199" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/217-4046-2_5x1_25x500HEX_1/217-4046-2_5x1_25x500HEX" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1200" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/18t-9mm-500Hex_217-3225_1/18t-9mm-500Hex_217-32257" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1201" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/217-4046-2_5x1_25x500HEX_2/217-4046-2_5x1_25x500HEX2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1202" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/217-4046-2_5x1_25x500HEX_3/217-4046-2_5x1_25x500HEX3" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1203" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/217-4046-2_5x1_25x500HEX_4/217-4046-2_5x1_25x500HEX4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1204" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/217-4046-2_5x1_25x500HEX_5/217-4046-2_5x1_25x500HEX5" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1205" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/217-4046-2_5x1_25x500HEX_6/217-4046-2_5x1_25x500HEX6" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1206" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/217-3875-500HEX V2_2/217-3875-500HEX V28" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1207" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_1/2024_Off Season_Launcher_FeederRollerShaft/217-4046-2_5x1_25x500HEX_7/217-4046-2_5x1_25x500HEX7" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1208" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_2/2024_Off Season_Launcher_FeederRollerShaft2/2024_Offseason_Launcher_LauncherShafts_12/2024_Offseason_Launcher_LauncherShafts2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1225" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_2/2024_Off Season_Launcher_FeederRollerShaft2/217-4046-2_5x1_25x500HEX_12/217-4046-2_5x1_25x500HEX8" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1226" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_2/2024_Off Season_Launcher_FeederRollerShaft2/18t-9mm-500Hex_217-3225_12/18t-9mm-500Hex_217-32258" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1227" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_2/2024_Off Season_Launcher_FeederRollerShaft2/217-4046-2_5x1_25x500HEX_22/217-4046-2_5x1_25x500HEX9" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1228" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_2/2024_Off Season_Launcher_FeederRollerShaft2/217-4046-2_5x1_25x500HEX_32/217-4046-2_5x1_25x500HEX10" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1229" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_2/2024_Off Season_Launcher_FeederRollerShaft2/217-4046-2_5x1_25x500HEX_42/217-4046-2_5x1_25x500HEX11" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1230" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_2/2024_Off Season_Launcher_FeederRollerShaft2/217-4046-2_5x1_25x500HEX_52/217-4046-2_5x1_25x500HEX12" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1231" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_2/2024_Off Season_Launcher_FeederRollerShaft2/217-4046-2_5x1_25x500HEX_62/217-4046-2_5x1_25x500HEX13" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1233" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_FeederRollerShaft_2/2024_Off Season_Launcher_FeederRollerShaft2/217-4046-2_5x1_25x500HEX_72/217-4046-2_5x1_25x500HEX14" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1234" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/2024_Offseason_Launcher_LauncherShafts_2/2024_Offseason_Launcher_LauncherShafts3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1235" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/217-3875-500HEX V2_5/217-3875-500HEX V211" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body11180" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft5/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_15/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP5/REV-11-2159_STEP_15/REV-11-2159_STEP5/ISDF-05-D-M_STEP_15/ISDF-05-D-M_STEP5/ISDF-05-D-M_b_STEP_15/ISDF-05-D-M_b_STEP5" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body11184" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft5/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_15/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP5/REV-11-2159_STEP_15/REV-11-2159_STEP5/TFM-105-02-L-DH-TR_STEP_15/TFM-105-02-L-DH-TR_STEP5/TFM-105-02-L-DH_terminal_STEP_15/TFM-105-02-L-DH_terminal_STEP5" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1990" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft5/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_15/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP5/REV-11-2159_STEP_15/REV-11-2159_STEP5/REV-11-2159-P01_STEP_15/REV-11-2159-P01_STEP5" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1994" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft5/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_15/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP5/REV-11-2159_STEP_15/REV-11-2159_STEP5/REV-11-2159-P08_STEP_15/REV-11-2159-P08_STEP5" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1995" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft5/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_15/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP5/REV-11-2159_STEP_15/REV-11-2159_STEP5/REV-11-2159-P08_STEP (1)_15/REV-11-2159-P08_STEP (1)5" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1996" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft5/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_15/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP5/REV-11-2159_STEP_15/REV-11-2159_STEP5/REV-11-2159-P02_STEP_15/REV-11-2159-P02_STEP5" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body5101" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft5/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_15/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP5/REV-11-2159_STEP_15/REV-11-2159_STEP5/REV-11-2159-P03_STEP_15/REV-11-2159-P03_STEP5" index="4"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body11005" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft5/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_15/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP5/REV-21-1652_STEP_15/REV-21-1652_STEP5/REV-21-1652-P08_STEP_15/REV-21-1652-P08_STEP5" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body11014" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft5/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_15/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP5/REV-21-1652_STEP_15/REV-21-1652_STEP5/REV-21-1652-P01_STEP_15/REV-21-1652-P01_STEP5" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body11019" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_1/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft5/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_15/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP5/REV-21-1652_STEP_15/REV-21-1652_STEP5/REV-21-1652-P10_STEP_15/REV-21-1652-P10_STEP5" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1236" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/Grip_Wheel-3in-MAXSpline_1/Grip_Wheel-3in-MAXSpline" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body264" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/Grip_Wheel-3in-MAXSpline_1/Grip_Wheel-3in-MAXSpline" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1237" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/Grip_Wheel-3in-MAXSpline_2/Grip_Wheel-3in-MAXSpline2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body265" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/Grip_Wheel-3in-MAXSpline_2/Grip_Wheel-3in-MAXSpline2" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body266" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/Grip_Wheel-3in-MAXSpline_3/Grip_Wheel-3in-MAXSpline3" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body267" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/Grip_Wheel-3in-MAXSpline_4/Grip_Wheel-3in-MAXSpline4" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body268" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/Grip_Wheel-3in-MAXSpline_5/Grip_Wheel-3in-MAXSpline5" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1241" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/Grip_Wheel-3in-MAXSpline_6/Grip_Wheel-3in-MAXSpline6" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body269" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/Grip_Wheel-3in-MAXSpline_6/Grip_Wheel-3in-MAXSpline6" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1242" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_1/2024_Off Season_Launcher_LauncherRollerShaft/217-3875-500HEX V2_6/217-3875-500HEX V212" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1243" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/2024_Offseason_Launcher_LauncherShafts_22/2024_Offseason_Launcher_LauncherShafts4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1244" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/217-3875-500HEX V2_52/217-3875-500HEX V213" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body11024" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_12/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft6/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_16/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP6/REV-11-2159_STEP_16/REV-11-2159_STEP6/REV-11-2159-P01_STEP_16/REV-11-2159-P01_STEP6" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body11039" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_12/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft6/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_16/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP6/REV-21-1652_STEP_16/REV-21-1652_STEP6/REV-21-1652-P08_STEP_16/REV-21-1652-P08_STEP6" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body11047" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_12/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft6/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_16/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP6/REV-21-1652_STEP_16/REV-21-1652_STEP6/REV-21-1652-P01_STEP_16/REV-21-1652-P01_STEP6" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body11052" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_12/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft6/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP_16/NEO-Vortex-Moter-and-SPARK-Flex-Motor-Controller-with-8mm-Shaft_STEP6/REV-21-1652_STEP_16/REV-21-1652_STEP6/REV-21-1652-P10_STEP_16/REV-21-1652-P10_STEP6" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1245" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/Grip_Wheel-3in-MAXSpline_12/Grip_Wheel-3in-MAXSpline7" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body270" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/Grip_Wheel-3in-MAXSpline_12/Grip_Wheel-3in-MAXSpline7" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body271" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/Grip_Wheel-3in-MAXSpline_22/Grip_Wheel-3in-MAXSpline8" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1247" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/Grip_Wheel-3in-MAXSpline_32/Grip_Wheel-3in-MAXSpline9" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body274" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/Grip_Wheel-3in-MAXSpline_32/Grip_Wheel-3in-MAXSpline9" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1248" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/Grip_Wheel-3in-MAXSpline_42/Grip_Wheel-3in-MAXSpline10" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body275" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/Grip_Wheel-3in-MAXSpline_42/Grip_Wheel-3in-MAXSpline10" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body276" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/Grip_Wheel-3in-MAXSpline_52/Grip_Wheel-3in-MAXSpline11" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1250" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/Grip_Wheel-3in-MAXSpline_62/Grip_Wheel-3in-MAXSpline12" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body277" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/Grip_Wheel-3in-MAXSpline_62/Grip_Wheel-3in-MAXSpline12" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1251" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Off Season_Launcher_LauncherRollerShaft_2/2024_Off Season_Launcher_LauncherRollerShaft2/217-3875-500HEX V2_62/217-3875-500HEX V214" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body157" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Launcher_MotorMountPlate_1/2024_Offseason_Launcher_MotorMountPlate" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body158" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Launcher_MotorMountPlate_2/2024_Offseason_Launcher_MotorMountPlate2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body159" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Launcher_MotorMountPlate_Bearing Support_1/2024_Offseason_Launcher_MotorMountPlate_Bearing Support" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body160" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Launcher_MotorMountPlate_Bearing Support_2/2024_Offseason_Launcher_MotorMountPlate_Bearing Support2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1785" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/MAXPlanetary 1-Stage_1/MAXPlanetary 1-Stage/MAXPlanetary 1-Stage_STEP_1/MAXPlanetary 1-Stage_STEP/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP_1/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP/REV-21-2106_STEP_1/REV-21-2106_STEP" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body2175" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/MAXPlanetary 1-Stage_1/MAXPlanetary 1-Stage/MAXPlanetary 1-Stage_STEP_1/MAXPlanetary 1-Stage_STEP/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP_1/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP/REV-21-2104_STEP_1/REV-21-2104_STEP" index="1"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body12139" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/MAXPlanetary 1-Stage_1/MAXPlanetary 1-Stage/MAXPlanetary 1-Stage_STEP_1/MAXPlanetary 1-Stage_STEP/REV-21-2101_STEP_1/REV-21-2101_STEP" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1707" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/MAXPlanetary 1-Stage_1/MAXPlanetary 1-Stage/MAXPlanetary 1-Stage_STEP_1/MAXPlanetary 1-Stage_STEP/REV-21-1650_STEP_1/REV-21-1650_STEP" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body161" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/18t-9mm-500Hex_217-3225_2/18t-9mm-500Hex_217-3225" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body166" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Launcher_NoteSkidPlate_1/2024_Offseason_Launcher_NoteSkidPlate" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body167" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Launcher_NoteSkidPlate_2/2024_Offseason_Launcher_NoteSkidPlate2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body168" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/217-3875-500HEX V2_7/217-3875-500HEX V2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body179" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/2024_Offseason_Launcher_Sheetmetal_1/2024_Offseason_Launcher_Sheetmetal" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body187" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/92141A029_250_FLAT WASHER_92141A029_3/92141A029_250_FLAT WASHER_92141A0293" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body189" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/92141A029_250_FLAT WASHER_92141A029_5/92141A029_250_FLAT WASHER_92141A0295" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body191" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/92141A029_250_FLAT WASHER_92141A029_7/92141A029_250_FLAT WASHER_92141A0297" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body199" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A304_2/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A3042" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1100" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A304_3/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A3043" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1101" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A304_4/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A3044" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1102" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A304_5/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A3045" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1103" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A304_6/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A3046" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1104" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A304_7/92196A304_18-8 STAINLESS STEEL SOCKET HEAD CAP SCREW_92196A3047" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1106" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Launcher_1/2024_Off Season_Launcher/92141A029_250_FLAT WASHER_92141A029_9/92141A029_250_FLAT WASHER_92141A0299" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1107" parent="2024_Offseason2881Robot_8-27-24 v1/2024Robot_Shooter_TiltMount_Assem_1/2024Robot_Shooter_TiltMount_Assem/2024Robot_Shooter_TiltMountPlate_1/2024Robot_Shooter_TiltMountPlate" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1115" parent="2024_Offseason2881Robot_8-27-24 v1/2024Robot_Shooter_TiltMount_Assem_1/2024Robot_Shooter_TiltMount_Assem/2024Robot_Shooter_TaperedBearingBlock_1/2024Robot_Shooter_TaperedBearingBlock" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1116" parent="2024_Offseason2881Robot_8-27-24 v1/2024Robot_Shooter_TiltMount_Assem_1/2024Robot_Shooter_TiltMount_Assem/2024Robot_Shooter_TaperedBearingBlock_2/2024Robot_Shooter_TaperedBearingBlock2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1117" parent="2024_Offseason2881Robot_8-27-24 v1/2024Robot_Shooter_TiltMount_Assem_1/2024Robot_Shooter_TiltMount_Assem/2024Robot_Shooter_TiltMountPlate_2/2024Robot_Shooter_TiltMountPlate2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1793" parent="2024_Offseason2881Robot_8-27-24 v1/2024Robot_Shooter_TiltMount_Assem_1/2024Robot_Shooter_TiltMount_Assem/MAXPlanetary 1-Stage_3/MAXPlanetary 1-Stage3/MAXPlanetary 1-Stage_STEP_13/MAXPlanetary 1-Stage_STEP3/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP_13/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP3/REV-21-2106_STEP_13/REV-21-2106_STEP3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1743" parent="2024_Offseason2881Robot_8-27-24 v1/2024Robot_Shooter_TiltMount_Assem_1/2024Robot_Shooter_TiltMount_Assem/MAXPlanetary 1-Stage_3/MAXPlanetary 1-Stage3/MAXPlanetary 1-Stage_STEP_13/MAXPlanetary 1-Stage_STEP3/REV-21-1650_STEP_13/REV-21-1650_STEP3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1120" parent="2024_Offseason2881Robot_8-27-24 v1/2024Robot_Shooter_TiltMount_Assem_1/2024Robot_Shooter_TiltMount_Assem/2024Robot_Shooter_LeadScrew_1/2024Robot_Shooter_LeadScrew" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1121" parent="2024_Offseason2881Robot_8-27-24 v1/2024Robot_Shooter_TiltMount_Assem_1/2024Robot_Shooter_TiltMount_Assem/217-3875-500HEX V2_11/217-3875-500HEX V25" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1122" parent="2024_Offseason2881Robot_8-27-24 v1/2024Robot_Shooter_TiltMount_Assem_1/2024Robot_Shooter_TiltMount_Assem/217-3875-500HEX V2_12/217-3875-500HEX V26" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1125" parent="2024_Offseason2881Robot_8-27-24 v1/2024Robot_Shooter_TiltMount_Assem_1/2024Robot_Shooter_TiltMount_Assem/2024Robot_Shooter_PivotStandOffShort_1/2024Robot_Shooter_PivotStandOffShort" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body12" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Launcher_ArmPushrod_1/2024_Offseason_Launcher_ArmPushrod" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1253" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/2024_Offseason_Robot_RollerAxle_1/2024_Offseason_Robot_RollerAxle" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1254" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/217-3875-500HEX V2_4/217-3875-500HEX V216" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1255" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_1/REV-21-2030_2in-MediumIntakeWheel" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body278" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_1/REV-21-2030_2in-MediumIntakeWheel" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1256" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_2/REV-21-2030_2in-MediumIntakeWheel2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body279" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_2/REV-21-2030_2in-MediumIntakeWheel2" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1257" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_3/REV-21-2030_2in-MediumIntakeWheel3" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body280" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_3/REV-21-2030_2in-MediumIntakeWheel3" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1258" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_4/REV-21-2030_2in-MediumIntakeWheel4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body281" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_4/REV-21-2030_2in-MediumIntakeWheel4" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1259" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_5/REV-21-2030_2in-MediumIntakeWheel5" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1260" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_6/REV-21-2030_2in-MediumIntakeWheel6" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body285" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_6/REV-21-2030_2in-MediumIntakeWheel6" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1261" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_7/REV-21-2030_2in-MediumIntakeWheel7" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body286" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_7/REV-21-2030_2in-MediumIntakeWheel7" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1262" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_8/REV-21-2030_2in-MediumIntakeWheel8" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1263" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_9/REV-21-2030_2in-MediumIntakeWheel9" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1264" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Off Season_Robot_IntakeRoller_1/2024_Off Season_Robot_IntakeRoller/REV-21-2030_2in-MediumIntakeWheel_10/REV-21-2030_2in-MediumIntakeWheel10" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1126" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Offseason_Intake_SidePlate_V2_updated flange_1/2024_Offseason_Intake_SidePlate_V2_updated flange" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1127" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Offseason_Intake_SidePlate_V2_FlippedFlange_updated flange_1/2024_Offseason_Intake_SidePlate_V2_FlippedFlange_updated flange" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1797" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/MAXPlanetary 1-Stage_4/MAXPlanetary 1-Stage4/MAXPlanetary 1-Stage_STEP_14/MAXPlanetary 1-Stage_STEP4/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP_14/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP4/REV-21-2106_STEP_14/REV-21-2106_STEP4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body2184" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/MAXPlanetary 1-Stage_4/MAXPlanetary 1-Stage4/MAXPlanetary 1-Stage_STEP_14/MAXPlanetary 1-Stage_STEP4/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP_14/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP4/REV-21-2104_STEP_14/REV-21-2104_STEP4" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body390" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/MAXPlanetary 1-Stage_4/MAXPlanetary 1-Stage4/MAXPlanetary 1-Stage_STEP_14/MAXPlanetary 1-Stage_STEP4/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP_14/REV-25-2109_1-Stage (No Shaft, For NEO)_STEP4/REV-21-2104_STEP_14/REV-21-2104_STEP4" index="2"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body12142" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/MAXPlanetary 1-Stage_4/MAXPlanetary 1-Stage4/MAXPlanetary 1-Stage_STEP_14/MAXPlanetary 1-Stage_STEP4/REV-21-2101_STEP_14/REV-21-2101_STEP4" index="11"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1746" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/MAXPlanetary 1-Stage_4/MAXPlanetary 1-Stage4/MAXPlanetary 1-Stage_STEP_14/MAXPlanetary 1-Stage_STEP4/REV-21-1650_STEP_14/REV-21-1650_STEP4" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1128" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/18t-9mm-500Hex_217-3225_6/18t-9mm-500Hex_217-32255" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1129" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/18t-9mm-500Hex_217-3225_7/18t-9mm-500Hex_217-32256" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1130" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Offseason_Intake_FrontPlate_1/2024_Offseason_Intake_FrontPlate" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1131" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/2024_Offseason_Intake_FrontPlate_2/2024_Offseason_Intake_FrontPlate2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body79" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_3/REV-11-2158_SPARK MAX7" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1214" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_3/REV-11-2158_SPARK MAX7" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1512" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_3/REV-11-2158_SPARK MAX7" index="14"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1910" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_3/REV-11-2158_SPARK MAX7" index="18"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body207" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_3/REV-11-2158_SPARK MAX7" index="19"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body227" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_3/REV-11-2158_SPARK MAX7" index="21"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body247" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_3/REV-11-2158_SPARK MAX7" index="23"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body710" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_4/REV-11-2158_SPARK MAX8" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1215" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_4/REV-11-2158_SPARK MAX8" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1513" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_4/REV-11-2158_SPARK MAX8" index="14"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1911" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_4/REV-11-2158_SPARK MAX8" index="18"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body208" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_4/REV-11-2158_SPARK MAX8" index="19"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body228" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_4/REV-11-2158_SPARK MAX8" index="21"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body248" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_4/REV-11-2158_SPARK MAX8" index="23"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body711" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_5/REV-11-2158_SPARK MAX9" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1216" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_5/REV-11-2158_SPARK MAX9" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1912" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_5/REV-11-2158_SPARK MAX9" index="18"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body209" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_5/REV-11-2158_SPARK MAX9" index="19"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body229" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_5/REV-11-2158_SPARK MAX9" index="21"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body249" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_5/REV-11-2158_SPARK MAX9" index="23"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body712" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_6/REV-11-2158_SPARK MAX10" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1217" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_6/REV-11-2158_SPARK MAX10" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1515" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_6/REV-11-2158_SPARK MAX10" index="14"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1913" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_6/REV-11-2158_SPARK MAX10" index="18"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2010" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_6/REV-11-2158_SPARK MAX10" index="19"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2210" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_6/REV-11-2158_SPARK MAX10" index="21"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2410" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_6/REV-11-2158_SPARK MAX10" index="23"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body713" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_7/REV-11-2158_SPARK MAX11" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1218" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_7/REV-11-2158_SPARK MAX11" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1516" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_7/REV-11-2158_SPARK MAX11" index="14"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1914" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_7/REV-11-2158_SPARK MAX11" index="18"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2011" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_7/REV-11-2158_SPARK MAX11" index="19"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2211" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_7/REV-11-2158_SPARK MAX11" index="21"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2411" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_7/REV-11-2158_SPARK MAX11" index="23"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2511" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_7/REV-11-2158_SPARK MAX11" index="24"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body714" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_8/REV-11-2158_SPARK MAX12" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1219" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_8/REV-11-2158_SPARK MAX12" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1517" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_8/REV-11-2158_SPARK MAX12" index="14"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1915" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_8/REV-11-2158_SPARK MAX12" index="18"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2012" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_8/REV-11-2158_SPARK MAX12" index="19"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2212" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_8/REV-11-2158_SPARK MAX12" index="21"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2412" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_8/REV-11-2158_SPARK MAX12" index="23"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body2512" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Off Season_Intake_1-roller_1/2024_Off Season_Intake_1-roller/REV-11-2158_SPARK MAX_8/REV-11-2158_SPARK MAX12" index="24"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body14" parent="2024_Offseason2881Robot_8-27-24 v1/FRC_BATTERY_1/FRC_BATTERY" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1144" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/2024_Offseason_Electronics_Electronincsboard_1/2024_Offseason_Electronics_Electronincsboard" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1145" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body241" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="1"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body315" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="2"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body415" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="3"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body515" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="4"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body615" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="5"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body715" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="6"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body815" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="7"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body915" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="8"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1015" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="9"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1146" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="10"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1220" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="11"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1320" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="12"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1420" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="13"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1518" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="14"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1618" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="15"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1716" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="16"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1816" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="17"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1916" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="18"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body2013" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="19"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body2115" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="20"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body2213" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="21"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body2313" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="22"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body2413" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="23"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body2513" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="24"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body262" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="25"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body272" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="26"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body282" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="27"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body292" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="28"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body30" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="29"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body31" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="30"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body322" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="31"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body332" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="32"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body342" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="33"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body352" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="34"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body362" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="35"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body372" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="36"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body382" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="37"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body392" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="38"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body40" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="39"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body41" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="40"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body422" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="41"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body432" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="42"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body442" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="43"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body452" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="44"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body462" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="45"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body472" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="46"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body482" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="47"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body492" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="48"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body50" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="49"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body51" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="50"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body522" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="51"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body532" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="52"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body542" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="53"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body552" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="54"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body562" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="55"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body572" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="56"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body582" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="57"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body592" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="58"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body60" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="59"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body61" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="60"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body622" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="61"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body632" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="62"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body642" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="63"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body652" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="64"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body662" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="65"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body672" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="66"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body682" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="67"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body692" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="68"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body70" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="69"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body71" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="70"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body722" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="71"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body732" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="72"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body742" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="73"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body752" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="74"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body762" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="75"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body772" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="76"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body782" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="77"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body792" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="78"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body80" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="79"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body81" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="80"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body822" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="81"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body832" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="82"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body842" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="83"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body852" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="84"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body862" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="85"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body872" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="86"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body882" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="87"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body892" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="88"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body90" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="89"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body91" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="90"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body922" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="91"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body932" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="92"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body942" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="93"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body952" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="94"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body962" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="95"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body972" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="96"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body982" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="97"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body992" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="98"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body100" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="99"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body101" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="100"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1022" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="101"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1032" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="102"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1042" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="103"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1052" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="104"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1062" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="105"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1072" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="106"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1082" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="107"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1092" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="108"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body11010" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="109"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body11110" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="110"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body11210" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/217-4244_PDP_1/217-4244_PDP" index="111"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1147" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/dummy_roborio_1/dummy_roborio" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1148" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/FRC_2019_RADIO_1/FRC_2019_RADIO" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1149" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="0"]
+transform = Transform3D(0.393701, 0, 3.34944e-30, 0, 0.393701, 0, 3.34944e-30, 0, 0.393701, 0.00100955, -0.00618641, -0.0566302)
+material_override = ExtResource("3_82lq1")
+
+[node name="Body250" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="1"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body416" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="3"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Body616" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="5"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Body716" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body816" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="7"]
+transform = Transform3D(0.393701, 0, 3.34944e-30, 0, 0.393701, 0, 3.34944e-30, 0, 0.393701, 0.00100955, -0.00618641, -0.0566302)
+material_override = ExtResource("3_82lq1")
+
+[node name="Body916" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="8"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Body1016" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="9"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1150" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="10"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Body1221" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="11"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Body1321" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="12"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Body1421" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="13"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Body1519" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="14"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Body1619" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="15"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Body1717" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="16"]
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="Body1817" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/am-0282+120a+Circuit+Breaker_1/am-0282+120a+Circuit+Breaker" index="17"]
+transform = Transform3D(-0.393701, -3.44184e-08, 2.63158e-15, 3.44184e-08, -0.393701, 2.54416e-15, 2.63158e-15, 2.54416e-15, 0.393701, 0, -0.00159597, -0.0287994)
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1151" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/Robot Status Light_1/Robot Status Light" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1152" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/REV-11-1856_1/REV-11-1856" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body917" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/REV-11-1856_1/REV-11-1856" index="8"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body363" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/REV-11-1856_1/REV-11-1856" index="35"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body418" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/REV-11-1856_1/REV-11-1856" index="40"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body583" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/REV-11-1856_1/REV-11-1856" index="57"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body618" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/REV-11-1856_1/REV-11-1856" index="60"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body843" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/REV-11-1856_1/REV-11-1856" index="83"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body918" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_Electronicspanel_1/2024_Offseason_Electronics_Electronicspanel/REV-11-1856_1/REV-11-1856" index="90"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body7" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_9/REV-11-2158_SPARK MAX" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body10" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_9/REV-11-2158_SPARK MAX" index="9"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body122" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_9/REV-11-2158_SPARK MAX" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body152" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_9/REV-11-2158_SPARK MAX" index="14"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body19" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_9/REV-11-2158_SPARK MAX" index="18"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body20" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_9/REV-11-2158_SPARK MAX" index="19"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body22" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_9/REV-11-2158_SPARK MAX" index="21"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body24" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_9/REV-11-2158_SPARK MAX" index="23"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body25" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_9/REV-11-2158_SPARK MAX" index="24"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body72" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_10/REV-11-2158_SPARK MAX2" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body102" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_10/REV-11-2158_SPARK MAX2" index="9"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body123" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_10/REV-11-2158_SPARK MAX2" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body153" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_10/REV-11-2158_SPARK MAX2" index="14"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body192" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_10/REV-11-2158_SPARK MAX2" index="18"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body202" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_10/REV-11-2158_SPARK MAX2" index="19"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body222" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_10/REV-11-2158_SPARK MAX2" index="21"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body242" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_10/REV-11-2158_SPARK MAX2" index="23"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body252" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_10/REV-11-2158_SPARK MAX2" index="24"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body73" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_11/REV-11-2158_SPARK MAX3" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body124" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_11/REV-11-2158_SPARK MAX3" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body154" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_11/REV-11-2158_SPARK MAX3" index="14"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body193" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_11/REV-11-2158_SPARK MAX3" index="18"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body203" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_11/REV-11-2158_SPARK MAX3" index="19"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body223" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_11/REV-11-2158_SPARK MAX3" index="21"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body243" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_11/REV-11-2158_SPARK MAX3" index="23"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body74" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_12/REV-11-2158_SPARK MAX4" index="6"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body125" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_12/REV-11-2158_SPARK MAX4" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body155" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_12/REV-11-2158_SPARK MAX4" index="14"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body194" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_12/REV-11-2158_SPARK MAX4" index="18"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body204" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_12/REV-11-2158_SPARK MAX4" index="19"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body224" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_12/REV-11-2158_SPARK MAX4" index="21"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body244" parent="2024_Offseason2881Robot_8-27-24 v1/REV-11-2158_SPARK MAX_12/REV-11-2158_SPARK MAX4" index="23"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1154" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024_Bumper_PlywoodLong_1/2024_Bumper_PlywoodLong" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1155" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024_Bumper_PlywoodLong_2/2024_Bumper_PlywoodLong2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1156" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024_Bumper_PlywoodShort_1/2024_Bumper_PlywoodShort" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1157" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024_Bumper_PlywoodShort_2/2024_Bumper_PlywoodShort2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1158" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024Robot_DriveTrain_SingularPoolNoodle_1/2024Robot_DriveTrain_SingularPoolNoodle" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1159" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024Robot_DriveTrain_SingularPoolNoodle_2/2024Robot_DriveTrain_SingularPoolNoodle2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1160" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024DriveTrain_BumperBracket_1/2024DriveTrain_BumperBracket" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1161" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024DriveTrain_BumperBracket_2/2024DriveTrain_BumperBracket2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1162" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024DriveTrain_BumperBracket_3/2024DriveTrain_BumperBracket3" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1163" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024DriveTrain_BumperBracket_4/2024DriveTrain_BumperBracket4" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1164" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024_Bumper_CornerMount_V2_1/2024_Bumper_CornerMount_V2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1165" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024_Bumper_CornerMount_V2_2/2024_Bumper_CornerMount_V22" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1166" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024_Bumper_CornerMount_V2_3/2024_Bumper_CornerMount_V23" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1167" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Bumper_1/2024_Bumper/2024_Bumper_CornerMount_V2_4/2024_Bumper_CornerMount_V24" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body116" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_MountingForCover_1/2024_Offseason_Electronics_MountingForCover" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body117" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_MountingForCover_2/2024_Offseason_Electronics_MountingForCover2" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body118" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_SprakMaxMount_1/2024_Offseason_Electronics_SprakMaxMount" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body119" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Electronics_SprakMaxMount_2/2024_Offseason_Electronics_SprakMaxMount2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body120" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_TiltMount_Hardstop_1/2024_Offseason_TiltMount_Hardstop" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body121" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_ShaftSupport_1/2024_Offseason_ShaftSupport" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body126" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_ShaftSupport_top_1/2024_Offseason_ShaftSupport_top" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body128" parent="2024_Offseason2881Robot_8-27-24 v1/2024_Offseason_Launcher_ArmPushrod_2/2024_Offseason_Launcher_ArmPushrod2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1168" parent="2024_Offseason2881Robot_8-27-24 v1/Mirror2024Robot_Shooter_TiltMount_Assem_1/Mirror2024Robot_Shooter_TiltMount_Assem/Mirror2024Robot_Shooter_TiltMountPlate_1/Mirror2024Robot_Shooter_TiltMountPlate" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1171" parent="2024_Offseason2881Robot_8-27-24 v1/Mirror2024Robot_Shooter_TiltMount_Assem_1/Mirror2024Robot_Shooter_TiltMount_Assem/Mirror18t-9mm-500Hex_217-3225_1/Mirror18t-9mm-500Hex_217-3225" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1224" parent="2024_Offseason2881Robot_8-27-24 v1/Mirror2024Robot_Shooter_TiltMount_Assem_1/Mirror2024Robot_Shooter_TiltMount_Assem/Mirror5709K901_TAPERED-ROLLER BEARING WITH STEEL RING_5709K901_2/Mirror5709K901_TAPERED-ROLLER BEARING WITH STEEL RING_5709K9012" index="11"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1324" parent="2024_Offseason2881Robot_8-27-24 v1/Mirror2024Robot_Shooter_TiltMount_Assem_1/Mirror2024Robot_Shooter_TiltMount_Assem/Mirror5709K901_TAPERED-ROLLER BEARING WITH STEEL RING_5709K901_2/Mirror5709K901_TAPERED-ROLLER BEARING WITH STEEL RING_5709K9012" index="12"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1424" parent="2024_Offseason2881Robot_8-27-24 v1/Mirror2024Robot_Shooter_TiltMount_Assem_1/Mirror2024Robot_Shooter_TiltMount_Assem/Mirror5709K901_TAPERED-ROLLER BEARING WITH STEEL RING_5709K901_2/Mirror5709K901_TAPERED-ROLLER BEARING WITH STEEL RING_5709K9012" index="13"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1174" parent="2024_Offseason2881Robot_8-27-24 v1/Mirror2024Robot_Shooter_TiltMount_Assem_1/Mirror2024Robot_Shooter_TiltMount_Assem/Mirror2024Robot_Shooter_TaperedBearingBlock_1/Mirror2024Robot_Shooter_TaperedBearingBlock" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1175" parent="2024_Offseason2881Robot_8-27-24 v1/Mirror2024Robot_Shooter_TiltMount_Assem_1/Mirror2024Robot_Shooter_TiltMount_Assem/Mirror2024Robot_Shooter_TaperedBearingBlock_2/Mirror2024Robot_Shooter_TaperedBearingBlock2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1176" parent="2024_Offseason2881Robot_8-27-24 v1/Mirror2024Robot_Shooter_TiltMount_Assem_1/Mirror2024Robot_Shooter_TiltMount_Assem/Mirror2024Robot_Shooter_TiltMountPlate_2/Mirror2024Robot_Shooter_TiltMountPlate2" index="0"]
+material_override = ExtResource("3_82lq1")
+
+[node name="Body1179" parent="2024_Offseason2881Robot_8-27-24 v1/Mirror2024Robot_Shooter_TiltMount_Assem_1/Mirror2024Robot_Shooter_TiltMount_Assem/Mirror2024Robot_Shooter_LeadScrew_1/Mirror2024Robot_Shooter_LeadScrew" index="0"]
+material_override = ExtResource("1_jb27u")
+
+[node name="Body1183" parent="2024_Offseason2881Robot_8-27-24 v1/Mirror2024Robot_Shooter_TiltMount_Assem_1/Mirror2024Robot_Shooter_TiltMount_Assem/Mirror2024Robot_Shooter_PivotStandOffLong_1/Mirror2024Robot_Shooter_PivotStandOffLong" index="0"]
+material_override = ExtResource("1_jb27u")

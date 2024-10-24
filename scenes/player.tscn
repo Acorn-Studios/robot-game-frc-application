@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://sy4ng8yl0yar"]
+
+[ext_resource type="Script" path="res://scenes/player.gd" id="1_dsdlm"]
+[ext_resource type="PackedScene" uid="uid://idpni2f6500v" path="res://scenes/robot_final_model.tscn" id="2_baxee"]
+[ext_resource type="Script" path="res://scripts/cam_root.gd" id="3_8jv4x"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3c43p"]
+size = Vector3(0.789063, 0.477783, 0.881836)
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.29201, 0)
+script = ExtResource("1_dsdlm")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00878906, 0.285522, 0.00390625)
+shape = SubResource("BoxShape3D_3c43p")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="CollisionShape3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.89219, 0)
+
+[node name="RobotFinalModel" parent="." instance=ExtResource("2_baxee")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="CamRoot" type="Node3D" parent="."]
+script = ExtResource("3_8jv4x")
+
+[node name="Camera3D" type="Camera3D" parent="CamRoot"]
+transform = Transform3D(1, 0, 0, 0, 0.849699, 0.527267, 0, -0.527267, 0.849699, 0, 1.93042, 3.01238)

@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=3 uid="uid://daqd7g8x0hg0l"]
+
+[ext_resource type="Texture2D" uid="uid://b3tv8dyesjdr8" path="res://materials/sky/empty_warehouse_01_4k.exr" id="1_ygjtp"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_82ek4"]
+panorama = ExtResource("1_ygjtp")
+energy_multiplier = 0.5
+
+[sub_resource type="Sky" id="Sky_qysdq"]
+sky_material = SubResource("PanoramaSkyMaterial_82ek4")
+
+[sub_resource type="Environment" id="Environment_g04nv"]
+background_mode = 2
+sky = SubResource("Sky_qysdq")
+ambient_light_source = 3
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 4.9
+glow_enabled = true
+glow_bloom = 0.36
+glow_hdr_threshold = 3.0
+glow_hdr_scale = 4.0
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_8ht4j"]
+
+[sub_resource type="Compositor" id="Compositor_rfyaw"]
+
+[node name="WorldEnvironment" type="WorldEnvironment"]
+environment = SubResource("Environment_g04nv")
+camera_attributes = SubResource("CameraAttributesPractical_8ht4j")
+compositor = SubResource("Compositor_rfyaw")

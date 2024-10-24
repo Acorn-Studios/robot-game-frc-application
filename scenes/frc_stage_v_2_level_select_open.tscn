@@ -1,0 +1,2510 @@
+[gd_scene load_steps=6 format=3 uid="uid://doj0byon7w2b2"]
+
+[ext_resource type="PackedScene" uid="uid://b5oki21qfj5kc" path="res://models/FRC Stage v1.fbx" id="1_7gc25"]
+[ext_resource type="Material" uid="uid://cu0okc4xwsxry" path="res://materials/black_rubber/rubber.tres" id="2_7fj7q"]
+[ext_resource type="Material" uid="uid://tropsnvho8jq" path="res://materials/wood/wood.tres" id="3_b75yl"]
+[ext_resource type="Material" uid="uid://bjm6uc3470ahp" path="res://materials/rough_dull_metal/rough_dull_metal.tres" id="4_sxtgd"]
+[ext_resource type="Material" uid="uid://dam4ffvlokanr" path="res://materials/metal/metal.tres" id="5_n3r60"]
+
+[node name="FRC Stage v1" instance=ExtResource("1_7gc25")]
+
+[node name="Boss-Extrude1" parent="FRC Stage v1/FE-2024-01_1/FE-2024-01" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Boss-Extrude12" parent="FRC Stage v1/FE-2024-01_2/FE-2024-012" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="FE-2024-02_1" parent="FRC Stage v1" index="2"]
+visible = false
+
+[node name="Boss-Extrude155" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00004_1/FE-00004/FE-00004-01_1/FE-00004-01" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude158" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00004_1/FE-00004/FE-00004-05_1/FE-00004-05" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude164" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00004_3/FE-000042/FE-00004-01_12/FE-00004-012" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude167" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00004_3/FE-000042/FE-00004-05_12/FE-00004-052" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude173" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00004_4/FE-000043/FE-00004-01_13/FE-00004-013" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude176" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00004_4/FE-000043/FE-00004-05_13/FE-00004-053" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Chamfer13" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00001_3/FE-000012/FE-00001-01_12/FE-00001-013" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Cut-Extrude28" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00001_3/FE-000012/FE-00001-05_12/FE-00001-052" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Chamfer16" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00001_4/FE-000013/FE-00001-01_23/FE-00001-016" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Cut-Extrude29" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00001_4/FE-000013/FE-00001-05_13/FE-00001-053" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude136" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00012_1/FE-00012" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude137" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00012_3/FE-000122" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude138" parent="FRC Stage v1/FE-2024-03_1/FE-2024-03/FE-00012_4/FE-000123" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Cut-Extrude211" parent="FRC Stage v1/GE-24000_Red_1/GE-24000_Red/GE-24001_1/GE-24001/GE-24001-01_1/GE-24001-01" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude213" parent="FRC Stage v1/GE-24000_Red_1/GE-24000_Red/GE-24008_1/GE-24008/GE-24012_1/GE-24012" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Boss-Extrude139" parent="FRC Stage v1/GE-24000_Red_1/GE-24000_Red/GE-24006_1/GE-24006" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude140" parent="FRC Stage v1/GE-24000_Red_1/GE-24000_Red/GE-24007_1/GE-24007" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Bolt Length71" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/Configurable Bolt_Hex Head 1_ Long_45/Configurable Bolt_Hex Head 1_ Long41" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length72" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/Configurable Bolt_Hex Head 1_ Long_46/Configurable Bolt_Hex Head 1_ Long42" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length73" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/Configurable Bolt_Hex Head 1_ Long_47/Configurable Bolt_Hex Head 1_ Long43" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length74" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/Configurable Bolt_Hex Head 1_ Long_48/Configurable Bolt_Hex Head 1_ Long44" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length75" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/Configurable Bolt_Hex Head 1_ Long_49/Configurable Bolt_Hex Head 1_ Long45" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length76" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/Configurable Bolt_Hex Head 1_ Long_50/Configurable Bolt_Hex Head 1_ Long46" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length77" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/Configurable Bolt_Hex Head 1_ Long_51/Configurable Bolt_Hex Head 1_ Long47" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length78" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/Configurable Bolt_Hex Head 1_ Long_52/Configurable Bolt_Hex Head 1_ Long48" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Boss-Extrude1101" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24331_1/GE-24331/GE-24331-01_1/GE-24331-01" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="17_64 (0_26563) Diameter Hole123" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24310_1/GE-24310/GE-24326_1/GE-24326/GE-24314_1/GE-24314" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="17_64 (0_26563) Diameter Hole2" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24310_1/GE-24310/GE-24313_1/GE-24313" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Fillet179" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24325_1/GE-24325/GE-24305_1/GE-24305" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Fillet13" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24322_1/GE-24322" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet184" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24330_Blue_1/GE-24330_Blue/GE-24335_1/GE-24335" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Fillet185" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24330_Blue_1/GE-24330_Blue/GE-24335_3/GE-243352" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Fillet186" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24330_Blue_1/GE-24330_Blue/GE-24335_4/GE-243353" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="1 (1) Diameter Hole1" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24330_Blue_1/GE-24330_Blue/GE-24332_1/GE-24332" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="17_64 (0_26563) Diameter Hole124" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24330_Blue_1/GE-24330_Blue/GE-24343_1/GE-24343/GE-24334_1/GE-24334" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="<GE-24334>-<17_64 (0_26563) Diameter Hole1>" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24330_Blue_1/GE-24330_Blue/GE-24343_1/GE-24343/GE-24343-Vinyl_1/GE-24343-Vinyl" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Fillet187" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24330_Blue_1/GE-24330_Blue/GE-24333_Blue_1/GE-24333_Blue" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Fillet188" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24330_Blue_1/GE-24330_Blue/GE-24333_Blue_2/GE-24333_Blue2" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="<GE-24320>-<1_4 (0_25) Diameter Hole2>" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24328_GE-24328-RightBlue_1/GE-24328_GE-24328-RightBlue/GE-24328-Vinyl_GE-24328-RightBlue-Vinyl_1/GE-24328-Vinyl_GE-24328-RightBlue-Vinyl" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="<GE-24320>-<1_4 (0_25) Diameter Hole2>2" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24328_GE-24328-LeftBlue_1/GE-24328_GE-24328-LeftBlue/GE-24328-Vinyl_GE-24328-LeftBlue-Vinyl_1/GE-24328-Vinyl_GE-24328-LeftBlue-Vinyl" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Fillet217" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/FE-00083_FE-00083-ID8_1/FE-00083_FE-00083-ID8/FE-00082_3/FE-000823" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="<FE-00082>-<Fillet2>5" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/FE-00083_FE-00083-ID8_1/FE-00083_FE-00083-ID8/FE-00083-Vinyl_FE-00083-ID8-Vinyl_1/FE-00083-Vinyl_FE-00083-ID8-Vinyl" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Fillet218" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/FE-00083_FE-00083-ID7_1/FE-00083_FE-00083-ID7/FE-00082_4/FE-000824" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="<FE-00082>-<Fillet2>7" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/FE-00083_FE-00083-ID7_1/FE-00083_FE-00083-ID7/FE-00083-Vinyl_FE-00083-ID7-Vinyl_1/FE-00083-Vinyl_FE-00083-ID7-Vinyl" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Fillet19" parent="FRC Stage v1/GE-24300_Briweld Field Blue_1/GE-24300_Briweld Field Blue/GE-24394_1/GE-24394" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="GE-24200_Blue_1" parent="FRC Stage v1" index="6"]
+visible = false
+
+[node name="Imported119" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported219" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported319" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported419" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported5" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported6" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported7" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported8" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported9" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported10" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported11" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported122" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported132" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported142" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported152" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported162" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported172" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported182" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported192" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported20" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported21" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported222" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported232" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported242" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported252" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported262" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported272" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[1]" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[2]" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[3]" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[1]" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[2]" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[3]" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01003_1/FE-01003/FE-01003-01_1/FE-01003-01" index="32"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported125" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported225" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported322" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported422" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported54" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported64" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported74" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported84" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported94" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported104" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1112" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported126" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported135" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported145" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported155" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported165" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported175" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported185" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported195" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported204" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2112" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported226" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported235" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported245" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported255" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported265" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[1]4" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[2]4" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[3]4" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[4]" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Pipe 1_0 SCH 40(1)[5]" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Pipe 1_0 SCH 40(1)[6]" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01002_1/FE-01002/FE-01002-01_Default<As Machined>_1/FE-01002-01_Default<As Machined>" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported130" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported230" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported325" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported425" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported57" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported67" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported77" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported87" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported97" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported107" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1115" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1211" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported138" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported148" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported158" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported168" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported178" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported188" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported198" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported207" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2115" parent="FRC Stage v1/GE-24200_Blue_1/GE-24200_Blue/GE-24210_1/GE-24210/FE-01012_1/FE-01012/FE-01012-01_1/FE-01012-01" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="27_64 (0_42188) Diameter Hole1" parent="FRC Stage v1/GE-24100_Blue Assembled_1/GE-24100_Blue Assembled/GE-24115_1/GE-24115" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Fillet11035" parent="FRC Stage v1/GE-24100_Blue Assembled_1/GE-24100_Blue Assembled/GE-24101_1/GE-24101/GE-24106_1/GE-24106/GE-24107_1/GE-24107/GE-24110_1/GE-24110/GE-24110-01_1/GE-24110-01" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet11037" parent="FRC Stage v1/GE-24100_Blue Assembled_1/GE-24100_Blue Assembled/GE-24101_1/GE-24101/GE-24106_1/GE-24106/GE-24107_1/GE-24107/GE-24110_3/GE-241103/GE-24110-01_13/GE-24110-013" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Cut-Extrude264" parent="FRC Stage v1/GE-24100_Blue Assembled_1/GE-24100_Blue Assembled/GE-24101_1/GE-24101/GE-24106_1/GE-24106/GE-24111_1/GE-24111" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Cut-Extrude1217" parent="FRC Stage v1/GE-24100_Blue Assembled_1/GE-24100_Blue Assembled/GE-24101_1/GE-24101/GE-24106_1/GE-24106/GE-24112_1/GE-24112" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet35" parent="FRC Stage v1/GE-24100_Blue Assembled_1/GE-24100_Blue Assembled/GE-24119_1/GE-24119/GE-24121_1/GE-24121" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="FE-2024-04_1" parent="FRC Stage v1" index="16"]
+visible = false
+
+[node name="Boss-Extrude1214" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00004_2/FE-000044/FE-00004-01_14/FE-00004-014" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude1217" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00004_2/FE-000044/FE-00004-05_14/FE-00004-054" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude1223" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00004_5/FE-000045/FE-00004-01_15/FE-00004-015" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude1226" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00004_5/FE-000045/FE-00004-05_15/FE-00004-055" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude1232" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00004_6/FE-000046/FE-00004-01_16/FE-00004-016" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude1235" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00004_6/FE-000046/FE-00004-05_16/FE-00004-056" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Chamfer117" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00001_2/FE-000014/FE-00001-01_24/FE-00001-018" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Cut-Extrude219" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00001_2/FE-000014/FE-00001-05_14/FE-00001-054" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Chamfer120" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00001_6/FE-000016/FE-00001-01_16/FE-00001-0111" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Cut-Extrude221" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00001_6/FE-000016/FE-00001-05_16/FE-00001-056" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude148" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00012_2/FE-000124" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude149" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00012_5/FE-000125" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Boss-Extrude150" parent="FRC Stage v1/FE-2024-05_1/FE-2024-05/FE-00012_6/FE-000126" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Bolt Length127" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/Configurable Bolt_Hex Head 1_ Long_108/Configurable Bolt_Hex Head 1_ Long69" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length128" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/Configurable Bolt_Hex Head 1_ Long_109/Configurable Bolt_Hex Head 1_ Long70" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length129" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/Configurable Bolt_Hex Head 1_ Long_110/Configurable Bolt_Hex Head 1_ Long71" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length130" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/Configurable Bolt_Hex Head 1_ Long_111/Configurable Bolt_Hex Head 1_ Long72" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length131" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/Configurable Bolt_Hex Head 1_ Long_112/Configurable Bolt_Hex Head 1_ Long73" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length132" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/Configurable Bolt_Hex Head 1_ Long_113/Configurable Bolt_Hex Head 1_ Long74" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length133" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/Configurable Bolt_Hex Head 1_ Long_114/Configurable Bolt_Hex Head 1_ Long75" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Bolt Length134" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/Configurable Bolt_Hex Head 1_ Long_115/Configurable Bolt_Hex Head 1_ Long76" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="17_64 (0_26563) Diameter Hole126" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24310_2/GE-243102/GE-24326_12/GE-243262/GE-24314_12/GE-243142" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="17_64 (0_26563) Diameter Hole22" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24310_2/GE-243102/GE-24313_12/GE-243132" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Cut-Extrude1132" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24310_2/GE-243102/GE-24315_12/GE-243152" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet1153" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24325_2/GE-243252/GE-24305_12/GE-243052" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Fillet119" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24322_2/GE-243222" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet1158" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24330_Red_1/GE-24330_Red/GE-24335_2/GE-243354" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Fillet1159" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24330_Red_1/GE-24330_Red/GE-24335_5/GE-243355" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Fillet1160" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24330_Red_1/GE-24330_Red/GE-24335_6/GE-243356" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="1 (1) Diameter Hole12" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24330_Red_1/GE-24330_Red/GE-24332_2/GE-243322" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="17_64 (0_26563) Diameter Hole127" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24330_Red_1/GE-24330_Red/GE-24343_2/GE-243432/GE-24334_12/GE-243342" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="<GE-24334>-<17_64 (0_26563) Diameter Hole1>2" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24330_Red_1/GE-24330_Red/GE-24343_2/GE-243432/GE-24343-Vinyl_12/GE-24343-Vinyl2" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Fillet1161" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24330_Red_1/GE-24330_Red/GE-24333_Red_1/GE-24333_Red" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="Fillet1162" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24330_Red_1/GE-24330_Red/GE-24333_Red_2/GE-24333_Red2" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="<GE-24320>-<1_4 (0_25) Diameter Hole2>3" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24328_GE-24328-RightRed_1/GE-24328_GE-24328-RightRed/GE-24328-Vinyl_GE-24328-RightRed-Vinyl_1/GE-24328-Vinyl_GE-24328-RightRed-Vinyl" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="<GE-24320>-<1_4 (0_25) Diameter Hole2>4" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24328_GE-24328-LeftRed_1/GE-24328_GE-24328-LeftRed/GE-24328-Vinyl_GE-24328-LeftRed-Vinyl_1/GE-24328-Vinyl_GE-24328-LeftRed-Vinyl" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet228" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/FE-00083_FE-00083-ID3_1/FE-00083_FE-00083-ID3/FE-00082_6/FE-000826" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="<FE-00082>-<Fillet2>10" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/FE-00083_FE-00083-ID3_1/FE-00083_FE-00083-ID3/FE-00083-Vinyl_FE-00083-ID3-Vinyl_1/FE-00083-Vinyl_FE-00083-ID3-Vinyl" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Fillet229" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/FE-00083_FE-00083-ID4_1/FE-00083_FE-00083-ID4/FE-00082_7/FE-000827" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="<FE-00082>-<Fillet2>12" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/FE-00083_FE-00083-ID4_1/FE-00083_FE-00083-ID4/FE-00083-Vinyl_FE-00083-ID4-Vinyl_1/FE-00083-Vinyl_FE-00083-ID4-Vinyl" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Fillet125" parent="FRC Stage v1/GE-24300_Briweld Field Red_1/GE-24300_Briweld Field Red/GE-24394_2/GE-243942" index="0"]
+material_override = ExtResource("3_b75yl")
+
+[node name="GE-24200_Red_1" parent="FRC Stage v1" index="19"]
+visible = false
+
+[node name="Imported141" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported239" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported328" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported428" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported510" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported610" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported710" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported810" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported910" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1010" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1118" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1214" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1311" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1411" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1511" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1611" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1711" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1811" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1911" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2010" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2118" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2211" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2310" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported248" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported258" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported268" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported275" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[1]7" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[2]7" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[3]7" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[1]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[2]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[3]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_12/FE-010034/FE-01003-01_14/FE-01003-014" index="32"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported150" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported240" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported329" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported429" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported511" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported611" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported711" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported811" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported911" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1011" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1119" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1215" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1312" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1412" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1512" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1612" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1712" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1812" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1912" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2011" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2119" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2212" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2311" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported249" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported259" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported269" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported276" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[1]8" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[2]8" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[3]8" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[1]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[2]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[3]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_22/FE-010035/FE-01003-01_15/FE-01003-015" index="32"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported151" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported241" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported330" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported430" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported512" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported612" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported712" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported812" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported912" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1012" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1120" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1216" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1313" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1413" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1513" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1613" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1713" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1813" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1913" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2012" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2120" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2213" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2312" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2410" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2510" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2610" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported277" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[1]9" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[2]9" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[3]9" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[1]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[2]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Mirror1[3]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01003_32/FE-010036/FE-01003-01_16/FE-01003-016" index="32"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported160" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported250" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported331" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported431" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported513" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported613" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported713" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported813" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported913" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1013" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1121" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1217" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1314" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1414" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1514" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1614" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1714" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1814" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1914" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2013" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2121" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2214" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2313" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2411" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2511" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2611" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[1]10" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[2]10" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[3]10" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[4]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Pipe 1_0 SCH 40(1)[5]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Pipe 1_0 SCH 40(1)[6]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_12/FE-010024/FE-01002-01_Default<As Machined>_14/FE-01002-01_Default<As Machined>4" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported161" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported251" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported332" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported432" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported514" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported614" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported714" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported814" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported914" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1014" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1122" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1218" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1315" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1415" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1515" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1615" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1715" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1815" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1915" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2014" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2122" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2215" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2314" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2412" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2512" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2612" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[1]11" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[2]11" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[3]11" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[4]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Pipe 1_0 SCH 40(1)[5]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Pipe 1_0 SCH 40(1)[6]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_22/FE-010025/FE-01002-01_Default<As Machined>_15/FE-01002-01_Default<As Machined>5" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported170" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported260" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported333" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported433" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported515" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported615" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported715" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported815" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported915" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1015" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1123" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1219" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1316" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1416" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1516" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1616" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1716" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1816" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1916" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2015" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2123" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2216" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2315" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2413" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2513" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2613" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[1]12" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[2]12" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[3]12" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1[4]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Pipe 1_0 SCH 40(1)[5]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Pipe 1_0 SCH 40(1)[6]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01002_32/FE-010026/FE-01002-01_Default<As Machined>_16/FE-01002-01_Default<As Machined>6" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported171" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported261" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported334" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported434" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported516" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported616" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported716" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported816" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported916" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1016" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1124" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1220" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1317" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1417" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1517" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1617" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1717" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1817" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1917" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2016" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2124" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_12/FE-010124/FE-01012-01_14/FE-01012-014" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported180" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported270" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported335" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported435" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported517" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported617" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported717" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported817" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported917" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1017" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1125" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1221" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1318" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1418" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1518" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1618" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1718" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1818" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1918" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2017" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2125" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_22/FE-010125/FE-01012-01_15/FE-01012-015" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported181" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported271" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported336" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="2"]
+material_override = ExtResource("5_n3r60")
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported436" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported518" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported618" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported718" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported818" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported918" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1018" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1126" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1222" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1319" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1419" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1519" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1619" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1719" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1819" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported1919" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2018" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported2126" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24210_2/GE-242102/FE-01012_32/FE-010126/FE-01012-01_16/FE-01012-016" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="1_4 Clearance Hole138" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24220_GE-24220 Tag12_1/GE-24220_GE-24220 Tag12/GE-24230_4/GE-242304/GE-24231_14/GE-242314/GE-24231-02_14/GE-24231-024" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="1_4 Clearance Hole140" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24220_GE-24220 Tag13_1/GE-24220_GE-24220 Tag13/GE-24230_5/GE-242305/GE-24231_15/GE-242315/GE-24231-02_15/GE-24231-025" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="1_4 Clearance Hole142" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24220_GE-24220 Tag11_1/GE-24220_GE-24220 Tag11/GE-24230_6/GE-242306/GE-24231_16/GE-242316/GE-24231-02_16/GE-24231-026" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Boss-Extrude210" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_2/GE-242504/GE-24251_Clampv2_14/GE-24251_Clampv24" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1166" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_2/GE-242504/GE-24253_14/GE-242537" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1167" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_2/GE-242504/GE-24253_24/GE-242538" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet619" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_2/GE-242504/GE-24254_14/GE-242544" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet620" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_2/GE-242504/GE-24252_14/GE-242524" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Boss-Extrude211" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_5/GE-242505/GE-24251_Clampv2_15/GE-24251_Clampv25" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1168" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_5/GE-242505/GE-24253_15/GE-242539" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1169" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_5/GE-242505/GE-24253_25/GE-2425310" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet621" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_5/GE-242505/GE-24254_15/GE-242545" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet622" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_5/GE-242505/GE-24252_15/GE-242525" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Boss-Extrude212" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/GE-24251_Clampv2_16/GE-24251_Clampv26" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1170" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/GE-24253_16/GE-2425311" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1171" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/GE-24253_26/GE-2425312" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet623" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/GE-24254_16/GE-242546" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet624" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/GE-24252_16/GE-242526" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Imported118" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/FE-01016_No Bolt_46/FE-01016_No Bolt18" index="0"]
+material_override = ExtResource("5_n3r60")
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported218" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/FE-01016_No Bolt_46/FE-01016_No Bolt18" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported318" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/FE-01016_No Bolt_46/FE-01016_No Bolt18" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Imported418" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/FE-01016_No Bolt_46/FE-01016_No Bolt18" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1151" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/FE-01016_No Bolt_46/FE-01016_No Bolt18" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Cut-Revolve2353" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/nylock__25_20_1215/nylock__25_20335" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Cut-Revolve2356" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/nylock__25_20_1566/nylock__25_20338" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Cut-Revolve2357" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/nylock__25_20_1576/nylock__25_20339" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Cut-Revolve2358" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24250_6/GE-242506/nylock__25_20_1586/nylock__25_20340" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet129" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24207_Red_1/GE-24207_Red" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Cut-Extrude22" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24201_2/GE-242012" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="1_2 Clearance Hole17" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_2/GE-24208_Left4/GE-24209_14/GE-242097" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet230" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_2/GE-24208_Left4/GE-24213_14/GE-242137" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1176" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_2/GE-24208_Left4/eyebolt_shoulder__5_13_1_5_14/eyebolt_shoulder__5_13_1_57" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Revolve429" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_2/GE-24208_Left4/nylock__50_13_nylock__5_13_54/nylock__50_13_nylock__5_1325" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1154" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_2/GE-24208_Left4/washer_flat__5_144/washer_flat__536" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="1_2 Clearance Hole18" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_5/GE-24208_Left5/GE-24209_15/GE-242098" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet231" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_5/GE-24208_Left5/GE-24213_15/GE-242138" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1177" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_5/GE-24208_Left5/eyebolt_shoulder__5_13_1_5_15/eyebolt_shoulder__5_13_1_58" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Revolve430" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_5/GE-24208_Left5/nylock__50_13_nylock__5_13_55/nylock__50_13_nylock__5_1326" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1156" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_5/GE-24208_Left5/washer_flat__5_145/washer_flat__538" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="1_2 Clearance Hole19" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_6/GE-24208_Left6/GE-24209_16/GE-242099" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet232" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_6/GE-24208_Left6/GE-24213_16/GE-242139" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1178" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_6/GE-24208_Left6/eyebolt_shoulder__5_13_1_5_16/eyebolt_shoulder__5_13_1_59" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Revolve431" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_6/GE-24208_Left6/nylock__50_13_nylock__5_13_56/nylock__50_13_nylock__5_1327" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1158" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Left_6/GE-24208_Left6/washer_flat__5_146/washer_flat__540" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="1_2 Clearance Hole110" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_2/GE-24208_Right4/GE-24209_24/GE-2420910" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet233" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_2/GE-24208_Right4/GE-24213_24/GE-2421310" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1179" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_2/GE-24208_Right4/eyebolt_shoulder__5_13_1_5_24/eyebolt_shoulder__5_13_1_510" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Revolve432" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_2/GE-24208_Right4/nylock__50_13_nylock__5_13_64/nylock__50_13_nylock__5_1328" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1160" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_2/GE-24208_Right4/washer_flat__5_154/washer_flat__542" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="1_2 Clearance Hole111" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_5/GE-24208_Right5/GE-24209_25/GE-2420911" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet234" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_5/GE-24208_Right5/GE-24213_25/GE-2421311" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1180" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_5/GE-24208_Right5/eyebolt_shoulder__5_13_1_5_25/eyebolt_shoulder__5_13_1_511" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Revolve433" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_5/GE-24208_Right5/nylock__50_13_nylock__5_13_65/nylock__50_13_nylock__5_1329" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1162" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_5/GE-24208_Right5/washer_flat__5_155/washer_flat__544" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="1_2 Clearance Hole112" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_6/GE-24208_Right6/GE-24209_26/GE-2420912" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Fillet235" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_6/GE-24208_Right6/GE-24213_26/GE-2421312" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet1181" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_6/GE-24208_Right6/eyebolt_shoulder__5_13_1_5_26/eyebolt_shoulder__5_13_1_512" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Revolve434" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_6/GE-24208_Right6/nylock__50_13_nylock__5_13_66/nylock__50_13_nylock__5_1330" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Cut-Extrude1164" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24208_Right_6/GE-24208_Right6/washer_flat__5_156/washer_flat__546" index="0"]
+material_override = ExtResource("2_7fj7q")
+
+[node name="Sweep128" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Sweep224" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[1]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[2]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[3]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[4]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[5]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[6]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[7]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[8]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[9]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[10]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[11]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[12]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[13]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[14]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[15]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[16]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[17]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[18]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[19]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[20]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[21]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[22]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[23]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[24]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[25]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[26]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[27]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[28]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[29]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[30]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[31]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="32"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[32]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="33"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[33]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="34"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[34]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="35"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[35]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="36"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[36]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="37"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[37]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="38"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[38]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="39"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[1]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="40"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[2]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="41"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[3]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="42"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[4]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="43"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[5]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="44"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[6]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="45"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[7]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="46"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[8]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="47"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[9]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="48"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[10]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="49"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[11]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="50"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[12]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="51"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[13]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="52"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[14]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="53"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[15]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="54"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[16]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="55"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[17]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="56"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[18]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="57"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[19]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="58"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[20]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="59"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[21]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="60"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[22]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="61"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[23]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="62"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[24]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="63"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[25]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="64"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[26]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="65"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[27]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="66"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[28]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="67"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[29]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="68"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[30]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="69"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[31]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="70"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[32]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="71"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[33]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="72"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[34]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="73"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[35]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="74"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[36]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="75"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[39]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="76"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[40]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="77"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[37]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="78"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[38]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="79"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[39]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="80"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[40]4" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="81"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern54" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_hanging_14/GE-24205_hanging4" index="82"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Sweep129" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_2 link_14/GE-24205_2 link7" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep225" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_2 link_14/GE-24205_2 link7" index="1"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep130" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_2 link_24/GE-24205_2 link8" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep226" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_2/GE-242054/GE-24205_2 link_24/GE-24205_2 link8" index="1"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep131" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Sweep227" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[1]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[2]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[3]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[4]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[5]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[6]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[7]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[8]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[9]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[10]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[11]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[12]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[13]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[14]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[15]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[16]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[17]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[18]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[19]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[20]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[21]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[22]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[23]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[24]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[25]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[26]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[27]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[28]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[29]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[30]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[31]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="32"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[32]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="33"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[33]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="34"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[34]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="35"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[35]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="36"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[36]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="37"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[37]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="38"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[38]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="39"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[1]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="40"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[2]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="41"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[3]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="42"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[4]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="43"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[5]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="44"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[6]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="45"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[7]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="46"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[8]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="47"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[9]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="48"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[10]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="49"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[11]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="50"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[12]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="51"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[13]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="52"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[14]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="53"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[15]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="54"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[16]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="55"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[17]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="56"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[18]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="57"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[19]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="58"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[20]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="59"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[21]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="60"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[22]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="61"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[23]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="62"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[24]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="63"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[25]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="64"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[26]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="65"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[27]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="66"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[28]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="67"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[29]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="68"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[30]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="69"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[31]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="70"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[32]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="71"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[33]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="72"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[34]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="73"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[35]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="74"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[36]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="75"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[39]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="76"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[40]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="77"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[37]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="78"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[38]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="79"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[39]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="80"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[40]5" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="81"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern55" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_hanging_15/GE-24205_hanging5" index="82"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Sweep132" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_2 link_15/GE-24205_2 link9" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep228" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_2 link_15/GE-24205_2 link9" index="1"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep133" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_2 link_25/GE-24205_2 link10" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep229" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_5/GE-242055/GE-24205_2 link_25/GE-24205_2 link10" index="1"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep134" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="0"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Sweep230" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="1"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[1]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="2"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[2]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="3"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[3]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="4"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[4]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="5"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[5]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="6"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[6]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="7"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[7]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="8"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[8]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="9"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[9]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="10"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[10]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="11"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[11]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="12"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[12]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="13"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[13]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="14"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[14]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="15"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[15]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="16"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[16]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="17"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[17]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="18"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[18]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="19"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[19]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="20"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[20]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="21"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[21]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="22"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[22]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="23"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[23]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="24"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[24]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="25"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[25]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="26"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[26]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="27"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[27]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="28"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[28]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="29"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[29]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="30"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[30]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="31"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[31]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="32"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[32]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="33"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[33]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="34"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[34]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="35"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[35]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="36"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[36]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="37"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[37]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="38"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[38]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="39"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[1]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="40"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[2]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="41"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[3]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="42"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[4]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="43"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[5]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="44"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[6]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="45"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[7]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="46"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[8]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="47"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[9]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="48"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[10]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="49"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[11]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="50"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[12]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="51"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[13]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="52"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[14]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="53"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[15]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="54"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[16]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="55"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[17]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="56"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[18]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="57"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[19]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="58"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[20]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="59"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[21]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="60"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[22]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="61"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[23]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="62"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[24]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="63"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[25]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="64"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[26]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="65"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[27]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="66"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[28]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="67"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[29]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="68"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[30]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="69"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[31]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="70"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[32]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="71"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[33]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="72"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[34]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="73"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[35]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="74"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[36]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="75"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[39]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="76"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern1[40]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="77"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[37]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="78"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[38]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="79"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[39]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="80"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern2[40]6" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="81"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="CrvPattern56" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_hanging_16/GE-24205_hanging6" index="82"]
+surface_material_override/0 = ExtResource("5_n3r60")
+
+[node name="Sweep135" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_2 link_16/GE-24205_2 link11" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep231" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_2 link_16/GE-24205_2 link11" index="1"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep136" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_2 link_26/GE-24205_2 link12" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Sweep232" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/GE-24205_6/GE-242056/GE-24205_2 link_26/GE-24205_2 link12" index="1"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet67" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/3216T41_Carabiner_2/3216T41_Carabiner7" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet68" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/3216T41_Carabiner_8/3216T41_Carabiner8" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet610" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/3216T41_Carabiner_10/3216T41_Carabiner10" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Fillet612" parent="FRC Stage v1/GE-24200_Red_1/GE-24200_Red/3216T41_Carabiner_12/3216T41_Carabiner12" index="0"]
+material_override = ExtResource("5_n3r60")
+
+[node name="Boss-Extrude151" parent="FRC Stage v1/GE-24000_Blue_1/GE-24000_Blue/GE-24006_2/GE-240062" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude152" parent="FRC Stage v1/GE-24000_Blue_1/GE-24000_Blue/GE-24007_2/GE-240072" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="27_64 (0_42188) Diameter Hole12" parent="FRC Stage v1/GE-24100_Red Assembled_1/GE-24100_Red Assembled/GE-24114_1/GE-24114" index="0"]
+material_override = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[1]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="0"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[2]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="1"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[3]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="2"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[4]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="3"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[5]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="4"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[6]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="5"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[7]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="6"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[8]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="7"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[9]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="8"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[10]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="9"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[11]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="10"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[1]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="11"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[2]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="12"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[3]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="13"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[4]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="14"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[5]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="15"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[6]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="16"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[7]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="17"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[8]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="18"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[9]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="19"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[10]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="20"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[11]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="21"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[12]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="22"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[13]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="23"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[14]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="24"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[15]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="25"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[16]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="26"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[17]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="27"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[18]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="28"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[19]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="29"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[20]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="30"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[21]" parent="FRC Stage v1/GE-23266_1/GE-23266" index="31"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[1]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="0"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[2]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="1"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[3]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="2"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[4]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="3"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[5]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="4"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[6]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="5"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[7]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="6"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[8]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="7"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[9]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="8"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[10]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="9"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude1[11]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="10"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[1]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="11"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[2]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="12"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[3]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="13"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[4]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="14"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[5]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="15"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[6]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="16"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[7]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="17"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[8]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="18"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[9]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="19"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[10]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="20"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[11]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="21"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[12]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="22"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[13]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="23"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[14]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="24"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[15]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="25"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[16]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="26"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[17]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="27"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[18]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="28"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[19]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="29"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[20]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="30"]
+surface_material_override/0 = ExtResource("4_sxtgd")
+
+[node name="Boss-Extrude2[21]2" parent="FRC Stage v1/GE-23266_2/GE-232662" index="31"]
+surface_material_override/0 = ExtResource("4_sxtgd")

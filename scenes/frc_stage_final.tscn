@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3w14ve1fu0sv"]
+
+[ext_resource type="PackedScene" uid="uid://cdpipf28ct0w7" path="res://scenes/frc_stage_v_1.tscn" id="1_ry430"]
+[ext_resource type="Material" uid="uid://cu0okc4xwsxry" path="res://materials/black_rubber/rubber.tres" id="2_df8sj"]
+
+[node name="FrcStageFinal" type="Node3D"]
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0344018, 0)
+material_override = ExtResource("2_df8sj")
+use_collision = true
+size = Vector3(23.17, 0.025, 10.92)
+
+[node name="FRC Stage v1" parent="." instance=ExtResource("1_ry430")]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0407104, 0.36084, 4.25749)
+material_override = ExtResource("2_df8sj")
+size = Vector3(12.2194, 1.72168, 0.164307)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0492401, 0.36084, -4.13948)
+material_override = ExtResource("2_df8sj")
+size = Vector3(14.2115, 1.72168, 0.164307)

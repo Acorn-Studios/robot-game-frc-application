@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnfwhx03fnjnq"]
+
+[ext_resource type="Script" path="res://scripts/player_controller.gd" id="1_57ujd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3c43p"]
+
+[node name="TestPlane" type="Node3D"]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.29201, 0)
+script = ExtResource("1_57ujd")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="RigidBody3D"]
+use_collision = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("BoxShape3D_3c43p")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="RigidBody3D/CollisionShape3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.89219, 0)
+
+[node name="Camera3D" type="Camera3D" parent="RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 0.849699, 0.527267, 0, -0.527267, 0.849699, 0, 1.93042, 3.01238)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+use_collision = true
+size = Vector3(100, 1, 100)

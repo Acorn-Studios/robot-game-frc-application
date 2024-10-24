@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://idpni2f6500v"]
+
+[ext_resource type="PackedScene" uid="uid://dcnwcf3pompaj" path="res://scenes/2024_offseason_2881_robot_8_27_24_v_0.tscn" id="1_orhjs"]
+[ext_resource type="Material" uid="uid://cu0okc4xwsxry" path="res://materials/black_rubber/rubber.tres" id="2_5d51q"]
+[ext_resource type="Texture2D" uid="uid://dlwrrjrt7pc1f" path="res://materials/metal/Metal049A_1K-JPG_Roughness.jpg" id="2_8qyew"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5yflc"]
+albedo_texture = ExtResource("2_8qyew")
+
+[node name="RobotFinalModel" type="Node3D"]
+
+[node name="2024_Offseason2881Robot_8-27-24 v0" parent="." instance=ExtResource("1_orhjs")]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="2024_Offseason2881Robot_8-27-24 v0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0110168, 0.0625461, 0.00366211)
+material_override = SubResource("StandardMaterial3D_5yflc")
+size = Vector3(0.695862, 0.0877991, 0.76416)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="2024_Offseason2881Robot_8-27-24 v0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.297825, 0.102255, -0.22151)
+material_override = ExtResource("2_5d51q")
+size = Vector3(0.171418, 0.0563333, 0.284036)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="2024_Offseason2881Robot_8-27-24 v0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.295771, 0.101889, -0.22151)
+material_override = ExtResource("2_5d51q")
+size = Vector3(0.167252, 0.0570657, 0.284036)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="2024_Offseason2881Robot_8-27-24 v0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.233064, 0.0968997, 0.312768)
+material_override = ExtResource("2_5d51q")
+size = Vector3(0.167252, 0.0470875, 0.13949)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="2024_Offseason2881Robot_8-27-24 v0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.229381, 0.0968997, 0.312768)
+material_override = ExtResource("2_5d51q")
+size = Vector3(0.167252, 0.0470875, 0.13949)

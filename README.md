@@ -21,6 +21,9 @@ Gathered Robot Model (From [Robot model](https://grabcad.com/library/frc-2881-20
 Gathered FRC Stage Model (From [Robot model](https://grabcad.com/library/frc-2881-2024-off-season-robot-1))* 
 
 ### Oct 18th
+Started work on:
+ - Mats for `frc_stage_v1`
+ - Mats for `robot_model`
 Implemented models from `Oct 17th`
 <br>
 Created Materials:
@@ -28,6 +31,7 @@ Created Materials:
  - `black_rubber`
 
 ### Oct 19th
+Finished materials work for `robot_model`
 Started working on Swerve Drive emulation movement **[SCRAPPED]**
 Kept on adding materials. 
 
@@ -44,6 +48,13 @@ Pivoted to Platformer type game
  - Implemented 3rd person camera controller
  - Added `wood` material
  - Added a dull and darker metal material
+Started work on world env.
+
+### Oct 23th
+Finished materials work for `frc_stage_v1`
+Started work on Level Select
+Started work on Levels 1-3
+Finished work on world evn.
 
 *For replication, see `How to convert CAD models` below
 

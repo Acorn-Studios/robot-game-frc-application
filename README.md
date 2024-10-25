@@ -54,9 +54,23 @@ Started work on world env.
 Finished materials work for `frc_stage_v1`
 Started work on Level Select
 Started work on Levels 1-3
-Finished work on world evn.
+Finished work on world evn. node
 
 *For replication, see `How to convert CAD models` below
+
+### Oct 24th
+Started work on main level, about 1/3 (`33%`) done
+Uses: 
+ - CSG Cubes
+ - CSG Polygons
+
+Added rotation script for rotating blocks for higher up
+
+### Oct 25th
+Started work on main level, about 5/12 (`41%`) done
+Uses: 
+ - CSG Cubes
+ - CSG Polygons
 
 ## Steps for replication
 ### How to convert CAD models

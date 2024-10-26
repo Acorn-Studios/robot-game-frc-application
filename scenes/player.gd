@@ -34,6 +34,8 @@ func _physics_process(delta):
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 	
+	if Input.is_action_just_pressed("r"):
+		get_tree().reload_current_scene()
 	
 	
 	move_and_slide()

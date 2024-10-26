@@ -67,10 +67,12 @@ Uses:
 Added rotation script for rotating blocks for higher up
 
 ### Oct 25th
-Started work on main level, about 5/12 (`41%`) done
+Started work on main level, about 1/2 (`50%`) done
 Uses: 
  - CSG Cubes
  - CSG Polygons
+
+Finished rotating section.
 
 ## Steps for replication
 ### How to convert CAD models

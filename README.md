@@ -72,7 +72,20 @@ Uses:
  - CSG Cubes
  - CSG Polygons
 
+### Oct 26th
+Started work on main level, about 3/4 (`75%`) done
+Uses: 
+ - CSG Cubes
+ - CSG Polygons
+
 Finished rotating section.
+Started work on moving platforms using `path3d` nodes.
+
+### Oct 27-29th
+`N/A`
+
+### Oct 30th
+
 
 ## Steps for replication
 ### How to convert CAD models

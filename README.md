@@ -1,7 +1,10 @@
 # Robot Game (frc application)
 I'm applying for my FRC team this is the project!
 
-1-week deadline from Thursday Oct 17th
+1-week deadline from Thursday, Oct 17th
+
+#### Notes
+I am fairly new to Godot and I also was really busy while making this so consider it a prototype.
 
 ## 🔗 Links 
 [Robot model](https://grabcad.com/library/frc-2881-2024-off-season-robot-1) <br>
@@ -85,7 +88,10 @@ Started work on moving platforms using `path3d` nodes.
 `N/A`
 
 ### Oct 30th
-
+Finished level, scrapped moving platforms
+Added end
+Added win screen & Trigger box
+Scrapped moving intro camera
 
 ## Steps for replication
 ### How to convert CAD models

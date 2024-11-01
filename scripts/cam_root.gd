@@ -2,6 +2,8 @@ extends Node3D
 
 var sense = .5
 @onready var root = $".."
+@export var Clamp : bool = true
+
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

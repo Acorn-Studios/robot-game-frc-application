@@ -11,6 +11,12 @@ size = Vector3(0.789063, 0.477783, 0.881836)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.29201, 0)
 script = ExtResource("1_dsdlm")
 
+[node name="Node3D" type="Node3D" parent="."]
+script = ExtResource("3_8jv4x")
+
+[node name="Camera3D" type="Camera3D" parent="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.22214)
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00878906, 0.285522, 0.00390625)
 shape = SubResource("BoxShape3D_3c43p")
@@ -20,9 +26,3 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.89219, 0)
 
 [node name="RobotFinalModel" parent="." instance=ExtResource("2_baxee")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
-
-[node name="CamRoot" type="Node3D" parent="."]
-script = ExtResource("3_8jv4x")
-
-[node name="Camera3D" type="Camera3D" parent="CamRoot"]
-transform = Transform3D(1, 0, 0, 0, 0.849699, 0.527267, 0, -0.527267, 0.849699, 0, 1.93042, 3.01238)

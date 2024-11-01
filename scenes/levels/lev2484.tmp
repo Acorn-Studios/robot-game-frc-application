@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://bbquvwa00voj1"]
+[gd_scene load_steps=11 format=3 uid="uid://bbquvwa00voj1"]
 
 [ext_resource type="PackedScene" uid="uid://daqd7g8x0hg0l" path="res://scenes/world_env_main.tscn" id="1_vbwta"]
 [ext_resource type="Script" path="res://scripts/spot_light_3d.gd" id="2_5ntuk"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://sy4ng8yl0yar" path="res://scenes/player.tscn" id="4_ml0xg"]
 [ext_resource type="Script" path="res://scripts/rotate.gd" id="5_knl7q"]
 [ext_resource type="Material" uid="uid://cu0okc4xwsxry" path="res://materials/black_rubber/rubber.tres" id="5_m4i5u"]
+[ext_resource type="Script" path="res://scripts/collision_shape_3d.gd" id="6_b3sy5"]
 [ext_resource type="Material" uid="uid://dam4ffvlokanr" path="res://materials/metal/metal.tres" id="6_cntkf"]
 [ext_resource type="Material" uid="uid://bjm6uc3470ahp" path="res://materials/rough_dull_metal/rough_dull_metal.tres" id="8_p60n1"]
 
@@ -34,9 +35,8 @@ script = ExtResource("2_5ntuk")
 [node name="FrcStageFinal" parent="." instance=ExtResource("3_mh67c")]
 transform = Transform3D(0.017435, 0, 0.999848, 0, 1, 0, -0.999848, 0, 0.017435, -10.233, 57.8713, -19.6805)
 
-[node name="CharacterBody3D" parent="." groups=["Player"] instance=ExtResource("4_ml0xg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00194335, 0.666954, 0.0211449)
-floor_max_angle = 0.698132
+[node name="CharacterBody3D" parent="." instance=ExtResource("4_ml0xg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.44378, 57.3613, -37.0718)
 
 [node name="Level" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00145721, 0, 0)
@@ -455,12 +455,12 @@ fit_content = true
 scroll_following = true
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="Level"]
-offset_left = 11.0
-offset_top = 556.0
-offset_right = 392.0
-offset_bottom = 706.0
+offset_left = 7.0
+offset_top = 586.0
+offset_right = 388.0
+offset_bottom = 736.0
 theme_override_font_sizes/normal_font_size = 21
-text = "Press Esc (hold) to free cursor, R to restart, WASD to move, Mouse to Look"
+text = "Press Ctrl to free cursor, R to restart, WASD to move, Mouse to Look"
 fit_content = true
 scroll_following = true
 
@@ -470,6 +470,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.32013, 58.1357, -17.758)
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.02899, 1.19482, -1.85803)
 shape = SubResource("BoxShape3D_7145r")
+script = ExtResource("6_b3sy5")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 visible = false
@@ -481,15 +482,3 @@ theme_override_font_sizes/normal_font_size = 56
 theme_override_font_sizes/bold_font_size = 261
 text = "You Win... YAY!!!!"
 tab_size = 0
-
-[node name="RichTextLabel2" type="RichTextLabel" parent="RichTextLabel"]
-offset_left = 105.0
-offset_top = 69.0
-offset_right = 486.0
-offset_bottom = 219.0
-theme_override_font_sizes/normal_font_size = 21
-text = "Free your mouse w/ esc"
-fit_content = true
-scroll_following = true
-
-[connection signal="body_entered" from="Area3D" to="CharacterBody3D" method="_on_area_3d_body_entered"]
